@@ -1,0 +1,61 @@
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+    background: yellow;
+    background: #f2f2f2;
+    border-radius: 7px 7px;
+    box-shadow: 3px 3px 15px;
+}
+
+.box1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.checklist-box{
+	width: 100%;
+	display: flex;
+	background: #EBEBEB;
+	flex-direction: row;
+}
+
+.check-column{
+    padding: 20px;
+	display: block;
+	width: 33%;
+}
+
+.mark-box{
+	display: flex;
+	justify-content: left;
+	width: 100%;
+    margin-bottom: 10px;
+}
+.mark-box .mark-itens{
+	flex: 1;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.separator{
+    margin: auto;
+    background: rgb(131,233,254);
+    background: linear-gradient(90deg, rgba(131,233,254,1) 0%, rgba(25,167,170,1) 27%, rgba(127,0,255,1) 100%);
+    width: 100%;
+    border-radius: 20px 20px;
+    height: 4px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.row{
+	margin-top: 5px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+    margin-bottom: 20px;
+}
